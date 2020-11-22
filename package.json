@@ -1,0 +1,26 @@
+{
+  "name": "PropertyPortfolio",
+  "version": "1.0.0",
+  "description": "This scraper was created to pull the various property types and information on each propery within Harrison County, TX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronkcarpenter/PropertyPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronkcarpenter/PropertyPortfolio/issues"
+  },
+  "homepage": "https://github.com/aaronkcarpenter/PropertyPortfolio#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "objects-to-csv": "^1.3.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
